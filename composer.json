@@ -1,0 +1,24 @@
+{
+    "name": "sinevia/php-library-sqldb-session",
+    "description": "PHP Library Session Handler for SqlDb",
+    "type": "library",
+    "keywords": ["session", "handler", "sqldb", "library", "php", "sinevia"],
+    "homepage": "http://github.com/sinevia/php-library-sqldb-session",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Milan Lesichkov",
+            "email": "lesichkovm@gmail.com",
+            "homepage": "http://lesichkov.co.uk",
+            "role": "Lead Developer"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "src/SqlDbSessionHandler.php"
+        ]
+    },
+    "require": {
+        "monolog/monolog": ">=1.24"
+    }
+}
